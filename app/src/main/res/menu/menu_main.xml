@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_new_game"
+        android:orderInCategory="100"
+        android:title="New Game"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_game_difficulty"
+        android:orderInCategory="100"
+        android:title="Game Difficulty"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_theme"
+        android:orderInCategory="100"
+        android:title="Theme"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_swap_actions"
+        android:orderInCategory="100"
+        android:title="Swap Actions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_statistics"
+        android:orderInCategory="100"
+        android:title="Statistics"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save_game"
+        android:orderInCategory="100"
+        android:title="Save Game"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_load_game"
+        android:orderInCategory="100"
+        android:title="Load Game"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>

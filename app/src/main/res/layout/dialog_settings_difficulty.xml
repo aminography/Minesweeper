@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:checked="true"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dp"
+            android:text="New RadioButton"
+            android:textColor="@color/textColorPrimaryLight" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:checked="true"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dp"
+            android:text="New RadioButton"
+            android:textColor="@color/textColorPrimaryLight" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:checked="true"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dp"
+            android:text="New RadioButton"
+            android:textColor="@color/textColorPrimaryLight" />
+    </RadioGroup>
+
+</LinearLayout>
